@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi&display=swap");
+
+body {
+  background-color: #070722;
+  font-family: "Jaldi", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin: 0;
+  color: #ffffff;
+}
+
+main {
+  padding: 0 2em 0 3em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 0.7em;
+}
+
+figure,
+img {
+  max-width: 100%;
+  margin: 0;
+}
+
+header ul {
+  list-style: none;
+  background-color: #11111a;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 0.5em 1em;
+  color: #fad60e;
+}
+
+figcaption {
+  color: #848282;
+  font-style: italic;
+  text-align: center;
+}
+
+aside {
+  background-color: #070717;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #fad60e;
+}
+
+a:hover {
+  color: #99ebfa;
+}
+
+a:active {
+  color: #1661f8;
+}
+
+footer {
+  background-color: #100f17;
+}
+
+footer nav {
+  text-align: left;
+  padding: 1em 0 0 2em;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer a:any-link {
+  color: #969ab5;
+}
+
+footer a:hover {
+  color: #99ebfa;
+}
+
+footer div {
+  text-align: center;
+  color: #616161;
+  font-size: 18px;
+}
+
+header h1 {
+  height: 100px;
+  padding-top: 0.5em;
+  font-size: 500%;
+  margin: 0;
+  color: #ecebfd;
+  text-shadow: 2px 2px #ffffff54;
+}

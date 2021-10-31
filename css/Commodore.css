@@ -1,0 +1,37 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "hd hd hd hd"
+    "ma ma ma as"
+    "fo fo fo fo";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+}
+
+header {
+  grid-area: hd;
+}
+
+main {
+  grid-area: ma;
+}
+
+footer {
+  grid-area: fo;
+}
+
+aside {
+  grid-area: as;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+aside h3 {
+  text-align: center;
+}
+
+figure {
+  padding-top: 2em;
+}
